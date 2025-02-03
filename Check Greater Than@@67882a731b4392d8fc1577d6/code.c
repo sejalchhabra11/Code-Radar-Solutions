@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()[
+int main(){
     int num1,num2;
     scanf("%d %d",&num1,&num2);
     if(num1>num2){
@@ -9,4 +9,4 @@ int main()[
         printf("False");
     
     return 0;
-]
+}
