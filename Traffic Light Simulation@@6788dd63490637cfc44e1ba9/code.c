@@ -9,6 +9,6 @@ int main(){
         printf("Go");
     }
     else{
-        printf("Invalid input");
+        printf("Slow Down or Invalid input");
     }
 }
