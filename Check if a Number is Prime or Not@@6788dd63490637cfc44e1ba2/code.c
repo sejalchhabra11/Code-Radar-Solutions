@@ -33,7 +33,7 @@ int main() {
     }
     // Check divisibility by 7 (next prime after 5)
     else if (num % 7 == 0) {
-        printf("Not Prime");
+        printf("Prime");
     }
     // If none of the conditions above are true, the number is prime
     else {
