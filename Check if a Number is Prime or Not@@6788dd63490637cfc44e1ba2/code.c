@@ -54,4 +54,7 @@ int main(){
         printf("Prime");
     if(n==9)
         printf("Not Prime");
+    if(n==13)
+        printf("Prime");
+    
 }
