@@ -5,8 +5,8 @@ int main(){
     scanf("%d",&n);
     int i=1;
     while(i<11){
-       
-        i++;
-    }
     printf("%d x %d = %d\n",n,i,n*i);
+    i++;
+    }
+
 }
