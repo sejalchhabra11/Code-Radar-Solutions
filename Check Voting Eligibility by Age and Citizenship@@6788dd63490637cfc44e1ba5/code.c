@@ -3,7 +3,7 @@
 int main(){
     int n,m;
     scanf("%d %d",&n,&m);
-    if(n>=18 && m==1 || m==0){
+    if(n>=18 && m==1 ){
         printf("Eligible");
     }
     else{
