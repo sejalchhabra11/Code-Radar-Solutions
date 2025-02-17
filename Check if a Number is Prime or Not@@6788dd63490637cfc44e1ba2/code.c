@@ -11,7 +11,7 @@ int main() {
 
     // Check if the number is less than 2 (not prime)
     if (num <= 1) {
-        printf("Prime");
+        printf("Not Prime");
     }
     // Check if the number is 2 (the smallest prime number)
     else if (num == 2) {
