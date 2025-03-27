@@ -20,12 +20,18 @@ int main(){
         scanf("%d",&N);
         int arr[N];
         for(int i=0;i,N;i++){
-            scanf("%d",arr[i]);
+            scanf("%d",&arr[i]);
         }
         scanf("%d",&k);
-        rotateright(arr,N,k);
+        if(N>1){
+            rotateright(arr,N,k);
+        }
         for(int i=0;i<N;i++){
+            if(i>0){
+                printf(" ");
+            }
             printf("%d",arr[i]);
         }
+        printf("\n");
     }
 }
