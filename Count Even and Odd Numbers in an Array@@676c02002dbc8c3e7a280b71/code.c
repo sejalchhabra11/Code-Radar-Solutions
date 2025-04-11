@@ -12,9 +12,9 @@ int main(){
         if(arr[i]%2==0){
             counteven++;
         }
-        if(arr[i]%2!=0){
+        else
             countodd++;
-        }
+    
         
 
     }
