@@ -18,7 +18,7 @@ int main(){
         }
     }
     if(smax==arr[0]){
-        printf("-1")
+        printf("-1");
     }
     else
     printf("%d",smax);
