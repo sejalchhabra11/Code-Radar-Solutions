@@ -15,7 +15,7 @@ int main(){
         if(arr[i]%2!=0){
             countodd++;
         }
-        printf("%d %d",counteven,countodd);
+        
 
     }
     
